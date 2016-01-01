@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id        = "com.brilliantapp.learnumbers"
+		versionCode="1.0"
+		version   = "5">
+		<name>Learn Numbers</name>
+		<description>Simple Admob Starter app for phonegap build</description>
+		<author href="https://www.facebook.com/DrOs96" email="drusama2@gmail.com">
+Osama Soliman
+		</author>
+				<content src="main.html" />
+   		<access origin="*" />
+
+	    <preference name="permissions" value="none"/>
+	    <preference name="android-build-tool" value="gradle" /> 
+	    <gap:plugin name="cordova-plugin-admobpro" source="npm" />
+	    
+		<preference name="phonegap-version" value="cli-5.2.0" />
+		<preference name="orientation" value="default" />
+		<preference name="fullscreen" value="false" />
+		<preference name="target-device" value="universal" />
+		<preference name="webviewbounce" value="true" />
+		<preference name="prerendered-icon" value="true" />
+		<preference name="stay-in-webview" value="true" />
+		<preference name="ios-statusbarstyle" value="default" />
+		<preference name="detect-data-types" value="true" />
+		<preference name="exit-on-suspend" value="false" />
+		<preference name="show-splash-screen-spinner" value="true" />
+		<preference name="auto-hide-splash-screen" value="true" />
+		<preference name="EnableViewportScale" value="true" />
+		<preference name="MediaPlaybackRequiresUserAction" value="false" />
+		<preference name="AllowInlineMediaPlayback" value="false" />
+		<preference name="BackupWebStorage" value="cloud" />
+		<preference name="TopActivityIndicator" value="gray" />
+		<preference name="KeyboardDisplayRequiresUserAction" value="false" />
+		<preference name="HideKeyboardFormAccessoryBar" value="false" />
+		<preference name="SuppressesIncrementalRendering" value="false" />
+		<preference name="android-minSdkVersion" value="10" />
+		<preference name="android-targetSdkVersion" value="19" />
+		<preference name="android-installLocation" value="auto" />
+		<preference name="SplashScreenDelay" value="5000" />
+		<preference name="ErrorUrl" value=""/>
+		<preference name="BackgroundColor" value="0x000000"/>
+		<preference name="KeepRunning" value="true"/>
+		<preference name="DisallowOverscroll" value="false"/>
+		<preference name="LoadingDialog" value=","/> 
+		<preference name="LoadUrlTimeoutValue" value="20000" />
+		<preference name="disable-cursor" value="false" />
+		<gap:platform name="android" />
+		<feature name="http://api.phonegap.com/1.0/notification"/>
+		<feature name="http://api.phonegap.com/1.0/network"/>
+		<icon src="res/icon/android/36.png" gap:platform="android" gap:density="ldpi" />
+		<icon src="res/icon/android/48.png" gap:platform="android" gap:density="mdpi" />
+		<icon src="res/icon/android/72.png" gap:platform="android" gap:density="hdpi" />
+		<icon src="res/icon/android/96.png" gap:platform="android" gap:density="xhdpi" />
+		<icon src="res/icon/android/144.png" gap:platform="android" gap:density="xxhdpi" />
+		<icon src="res/icon/android/192.png" gap:platform="android" gap:density="xxxhdpi" />
+	</widget>
