@@ -30,7 +30,7 @@
         // display a banner at startup
         createSelectedBanner();
         // alert
-        alert("Hello world !");
+        //alert("Hello world !");
         // prepare
         prepareInterstitial();
         //show at sratup
