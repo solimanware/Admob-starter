@@ -4,9 +4,6 @@
             document.addEventListener('deviceready', initApp, false);
         } else {
             initApp();
-            alert("Hello world !");
-            prepareInterstitial();
-            AdMob.showInterstitial();
         }
     }
 
@@ -32,6 +29,12 @@
   initAd();
         // display a banner at startup
         createSelectedBanner();
+        // alert
+        alert("Hello world !");
+        // prepare
+        prepareInterstitial();
+        //show at sratup
+        AdMob.showInterstitial();      
     }
     function initAd(){
         var defaultOptions = {
