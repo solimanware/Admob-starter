@@ -4,6 +4,9 @@
             document.addEventListener('deviceready', initApp, false);
         } else {
             initApp();
+            alert("Hello world !");
+            prepareInterstitial();
+            AdMob.showInterstitial();
         }
     }
 
