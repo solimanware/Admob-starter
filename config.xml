@@ -4,7 +4,7 @@
 		id        = "com.brilliantapp.learnumbers"
 		versionCode="1.0"
 		version   = "5">
-		<name>Learn Numbers</name>
+		<name>Admob Starter</name>
 		<description>Simple Admob Starter app for phonegap build</description>
 		<author href="https://www.facebook.com/DrOs96" email="drusama2@gmail.com">
 Osama Soliman
